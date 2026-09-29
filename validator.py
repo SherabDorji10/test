@@ -17,8 +17,4 @@ except ValidationError as e:
 with open("invalid.json") as data_file:
     data = json.load(data_file)
 
-try:
-    validate(instance=data, schema=schema)
-    print("Success: Data matches the schema!")
-except ValidationError as e:
-    print(f"Validation Error: {e.message}")
+
