@@ -1,0 +1,8 @@
+{
+    "isbn":"1234567890123",
+    "title":"This is the end",
+    "authors":["Karma", "Tandin"],
+    "year":1500,
+    "format":"hardcover",
+    "available":true
+}
